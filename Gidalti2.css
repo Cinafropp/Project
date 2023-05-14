@@ -1,0 +1,416 @@
+body {
+    background-color: #022E57;
+    height: 1080px;
+    overflow: hidden; /* Hide scrollbars */
+}
+
+.logo {
+    text-align: center;
+
+    position: relative;
+    top: 100px;
+    left: 357px;
+    background-position: top;
+}
+
+.phone {
+    text-align: center;
+
+    position: relative;
+    top: -965px;
+    left: 369px;
+    background-position: top;
+}
+
+.gmail {
+    text-align: center;
+
+    position: relative;
+    top: -980px;
+    left: 360px;
+    background-position: top;
+}
+
+.textimageinstagram {
+    position: relative;
+}
+
+.instagramcenter {
+    text-align: center;
+}
+
+.instagram {
+    text-align: center;
+    align-items: center;
+    position: relative;
+    top: 951px;
+    left: -120px;
+    background-position: top;
+}
+
+.textimagefacebook {
+    position: relative;
+    text-align: center;
+}
+
+.facebook {
+    position: relative;
+    top: 950.5px;
+    left: 790px;
+    background-position: top;
+}
+@font-face {
+    font-family: myFont;
+    src: url(Roboto-Bold.ttf);
+}
+@font-face {
+    font-family: aboutFont;
+    src: url(Lora-Italic.ttf)
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.con {
+    width: 75%;
+    height: 100vh background-color #222;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+
+}
+
+.swiper {
+    width: 81.9%;
+    height: fit-content;
+    left: 0;
+    top: -23px;
+    background-position: top;
+    text-align: center;
+    align-items: center;
+}
+
+.swiper-slide img {
+    width: 100%;
+}
+
+.swiper .swiper-button-prev,
+.swiper .swiper-button-next {
+    color: white
+}
+
+.swiper .swiper-pagination-bullet-active {
+    background: rgb(0, 0, 0);
+}
+
+.mobileheading {
+    visibility: hidden;
+}
+
+.quotemobile {
+    visibility: hidden;
+}
+
+.mobilep {
+    position: relative;
+    visibility: hidden;
+    text-align: center;
+}
+.mobileg {
+    position: relative;
+    visibility: hidden;
+    text-align: center;
+}
+.mobilei {
+    position: relative;
+    visibility: hidden;
+    text-align: center;
+    color: white;
+        font-family: myFont;
+        text-decoration: none;
+}
+.mobilef {
+    position: relative;
+    visibility: hidden;
+    text-align: center;
+    margin-left: 20px;
+}
+
+
+.mobilephone {
+    visibility: hidden;
+}
+
+.mobilegmail {
+    visibility: hidden;
+}
+
+.mobileinstagram {
+    visibility: hidden;
+}
+
+.mobilefacebook {
+    visibility: hidden;
+}
+
+a {
+    color: inherit;
+}
+
+*:before, 
+*:after{
+    padding: 0; 
+    margin: 0; 
+    box-sizing:border-box
+}
+
+a:before{
+    content:"";
+    position: absolute;
+    height: 0.1em; 
+    width: 100%; 
+    background-size: 200% 100%; 
+    bottom: -0.1em;
+    left: auto;
+    right: auto;
+    transition: 0.5s;
+}
+
+a:hover:before{
+    background-color: pink;
+    background-position: 100% 0;
+}
+
+@media only screen and (max-width: 1600px) {
+    body {
+        background-color: #022E57;
+        height: 100vh;
+        overflow: hidden; /* Hide scrollbars */
+        margin: auto;
+        
+    }
+    .logo {
+        top: 10px;
+        left: 0px;
+        position: relative;
+        background-position: top;
+        max-width: 170px;
+        height: auto;
+        
+
+    }
+
+    .logocenter { 
+        text-align: center;
+        align-items: center;
+    }
+    .heading {
+        position: relative;
+        top: -620px;
+        text-align: center;
+        left: 20px;
+        color: white;
+        font-family: myFont;
+        visibility: hidden;
+    }
+    
+
+    .con {
+        margin: 0 auto;
+    }
+    .swiper {
+        width: 100%;
+        left: 0;
+        top: -50px;
+        position: relative;
+        background-position: top;
+        height: auto;
+        margin: 0 auto;
+    }
+
+    .swiper-wrapper {
+        text-align: center;
+        align-items: center;
+    }
+
+    div.quote {
+        position: relative;
+        top: 160px;
+        right: 200px;
+        color: white;
+        font-family: aboutFont;
+        margin-left: 10;
+        margin-right: 10;
+        text-align: left;
+        display: none;
+    }
+    
+    .container {
+        text-align: center;
+    }
+    .about {
+        position: relative;
+        text-align: right;
+        left: -100px;
+        top: -20px;
+        margin-right: 10;
+        margin-left: 10;
+        font-size: medium;
+        margin-bottom: 0px;
+        margin-top: 0px;
+        visibility: visible;
+    }
+    .phone
+    {
+        display: none;
+    }
+
+    .gmail {
+        display: none;
+    }
+
+    .instagramcenter {
+       display: none;
+    }
+
+    .facebookcenter {
+        display: none;
+    }
+
+    .p {
+        display: none;
+    }
+
+    .g {
+        display: none;
+    }
+
+    .i {
+        display: none;
+    }
+
+    .f {
+        display: none;
+    }
+    .mobileheading {
+        visibility: visible;
+        position: relative;
+        top: 45px;
+        align-items: center;
+        text-align: center;
+        color: white;
+        font-family: myFont;
+    }
+
+    .quotemobile {
+        visibility: visible;
+        position: relative;
+        text-align: center;
+        top: 60px;
+        margin-left: 45px;
+        margin-right: 45px;
+        color: white;
+        font-family: aboutFont;
+        font-size: 17px;
+    }
+    
+    .mobilep {
+        visibility: visible;
+        position: relative;
+        top: 270px;
+        left: 0;
+        align-items: center;
+        text-align: center;
+        color: white;
+        font-family: myFont;
+        text-decoration: underline;
+    }
+    .mobileg {
+        position: relative;
+        visibility: visible;
+        top: 280px;
+        left: 0;
+        align-items: center;
+        text-align: center;
+        color: white;
+        font-family: myFont;
+        text-decoration: none;
+        text-decoration: underline;
+    }
+    .mobilei {
+        position: relative;
+        visibility: visible;
+        top: 230px;
+        left: 0;
+        align-items: center;
+        text-align: center;
+        color: white;
+        font-family: myFont;
+        text-decoration: none;
+        text-decoration: underline;
+    }
+    
+    .mobilef {
+        position: relative;
+        visibility: visible;
+        top: 300px;
+        left: 0;
+        align-items: center;
+        text-align: center;
+        color: white;
+        font-family: myFont;
+        text-decoration: none;
+        text-decoration: underline;
+    }
+
+    .mobilefacebook {
+        visibility: visible;
+        position: relative;
+        top: 322px;
+        left: -140px;
+        text-decoration: none;
+        text-decoration: white;
+    }
+    
+    .mobileinstagram {
+        visibility: visible;
+        position: relative;
+        top: 253px;
+        left: -120px;
+    }
+
+    .mobileinstagramcenter {
+        text-align: center;
+        align-items: center;
+    }
+
+
+    .cf {
+        position: relative;
+        text-align: center;
+        align-items: center;
+        left: 0px;
+    }
+    .ci {
+        position: relative;
+        text-align: center;
+        align-items: center;
+        left: 0px;
+    }
+
+
+
+    .swiper .swiper-button-prev,
+.swiper .swiper-button-next {
+    display: none;
+}
+
+a {
+    color: inherit;
+}
+
+}
+    
